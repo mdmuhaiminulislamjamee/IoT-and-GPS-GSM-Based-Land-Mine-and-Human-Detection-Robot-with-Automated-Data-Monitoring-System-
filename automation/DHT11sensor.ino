@@ -1,4 +1,4 @@
-//Get the DHT11 sensor values
+// Get the DHT11 sensor values
 void DHT11sensor() {
   float h = dht.readHumidity();
   float t = dht.readTemperature();
